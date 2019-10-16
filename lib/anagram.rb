@@ -11,6 +11,8 @@ class Anagram
       original_word = self.word.split.sort! 
       comparison = word.split.sort! 
       if original_word == comparison
+        matches << word 
+      end
     end 
   end 
 end 
