@@ -13,6 +13,7 @@ class Anagram
       if original_word == comparison
         matches << word 
       end
-    end 
+    end
+    matches
   end 
 end 
