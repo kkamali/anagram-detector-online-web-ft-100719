@@ -3,5 +3,8 @@ class Anagram
   
   def initialize(word)
     self.word = word 
+  end
+  
+  def match(words)
   end 
 end 
