@@ -10,6 +10,7 @@ class Anagram
     words.each do |word|
       original_word = self.word.split.sort! 
       comparison = word.split.sort! 
+      if original_word == comparison
     end 
   end 
 end 
