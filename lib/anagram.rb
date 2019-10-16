@@ -6,5 +6,9 @@ class Anagram
   end
   
   def match(words)
+    words.each do |word|
+      original_word = self.word.split.sort! 
+      comparison = word.split.sort! 
+    end 
   end 
 end 
