@@ -10,8 +10,8 @@ class Anagram
   def match(words)
     matches = []
     words.each do |word|
-      original_word = self.word.split.sort! 
-      comparison = word.split.sort! 
+      original_word = self.word.split("").sort! 
+      comparison = word.split("").sort! 
       binding.pry
       if original_word == comparison
         matches << word 
